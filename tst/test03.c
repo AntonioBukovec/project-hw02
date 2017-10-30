@@ -4,7 +4,7 @@
 int main(void){
 	int a=10;
 	FILE *dat;
-	dat=fopen("binarna.bin", "rw");
+	dat=fopen("binarna.bin", "wb");
 	if(dat==NULL) {
 		printf("Error!\n");
 		return 0;
