@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <fttw3.h>
+#include <fftw3.h>
 #include "cmplx.h"
 
 int main(void){
